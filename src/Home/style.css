@@ -1,0 +1,58 @@
+.clock-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.digital-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.clock-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pause-button {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 5%;
+}
+
+.section-title h2 {
+  padding-left: 2rem;
+}
+
+.posts-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3rem;
+}
+
+.post-card {
+  width: 30%;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+}
+
+.directory-title {
+  display: flex;
+  justify-content: center;
+}
+
+.directory-cards-container {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.dropdown select {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  -webkit-appearance: menulist-button;
+  -moz-appearance: none;
+}

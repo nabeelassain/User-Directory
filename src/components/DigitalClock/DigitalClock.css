@@ -1,0 +1,49 @@
+.datetime {
+  color: #00bfff;
+  background: #10101e;
+  font-family: "Segoe UI", sans-serif;
+  width: 200px;
+  padding: 15px 10px;
+  border: 3px solid #2e94e3;
+  border-radius: 5px;
+  transition: 0.5s;
+  transition-property: background, box-shadow;
+}
+
+.datetime:hover {
+  background: #0d1e2a;
+  box-shadow: 0 0 30px #2e94e3;
+}
+
+.date {
+  font-size: 13px;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.time {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time span:not(:last-child) {
+  position: relative;
+  margin: 0 2px;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #00bfff;
+  text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff;
+}
+
+.time span:last-child {
+  font-size: 10px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 3px;
+  padding: 0 2px;
+  border-radius: 3px;
+}

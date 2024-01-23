@@ -1,0 +1,17 @@
+.user-card-link {
+  text-decoration: none;
+  color: black;
+}
+
+.user-card {
+  border: 3px solid #0000cc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.user-card-content {
+  display: flex;
+  justify-content: space-between;
+}

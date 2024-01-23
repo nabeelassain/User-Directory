@@ -1,0 +1,18 @@
+.post-card {
+  border: 3px solid #0000cc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.post-title {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.post-content {
+  margin-top: 10px;
+}
